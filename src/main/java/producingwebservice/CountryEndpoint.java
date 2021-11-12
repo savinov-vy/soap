@@ -28,20 +28,4 @@ public class CountryEndpoint {
 
 		return response;
 	}
-//
-//	Чтобы исправить следующую ошибку:
-//
-//<faultstring xml:lang="en">unexpected element (uri:"http://spring.io/guides/gs-producing-web-service", local:"getCountryRequest"). Expected elements are &lt;{}getCountryRequest></faultstring>
-//	используйте решение, предоставленное Сергеем Усачевым, в классе GetCountryRequest измените следующее:
-//
-//	@XmlRootElement(namespace="http://spring.io/guides/gs-producing-web-service", name="getCountryRequest") public class GetCountryRequest {
-//		Но тогда вы получите вторую ошибку:
-//
-//<faultstring xml:lang="en">The country's name must not be null</faultstring>
-//		Чтобы исправить это, в том же классе измените следующее:
-//
-//		@XmlElement(namespace="http://spring.io/guides/gs-producing-web-service", required = true)
-//		Тогда вы готовы протестировать сервис с помощью пользовательского интерфейса SOAP WSDL по этому адресу:
-//
-//		http://localhost:8080/ws/countries.wsdl
 }

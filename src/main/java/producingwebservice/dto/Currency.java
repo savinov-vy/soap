@@ -1,3 +1,4 @@
+
 package producingwebservice.dto;
 
 import javax.xml.bind.annotation.XmlEnum;
@@ -6,7 +7,7 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for currency.
- *
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
@@ -18,9 +19,9 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/restriction>
  * &lt;/simpleType>
  * </pre>
- *
+ * 
  */
-@XmlType(name = "currency")
+@XmlType(name = "currency", namespace = "http://spring.io/guides/gs-producing-web-service")
 @XmlEnum
 public enum Currency {
 

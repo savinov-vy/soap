@@ -1,3 +1,4 @@
+
 package producingwebservice.dto;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for anonymous complex type.
- *
+ * 
  * <p>The following schema fragment specifies the expected content contained within this class.
- *
+ * 
  * <pre>
  * &lt;complexType>
  *   &lt;complexContent>
@@ -23,27 +24,26 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- *
- *
+ * 
+ * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-        "country"
+    "country"
 })
-@XmlRootElement(name = "getCountryResponse")
+@XmlRootElement(name = "getCountryResponse", namespace = "http://spring.io/guides/gs-producing-web-service")
 public class GetCountryResponse {
 
-
-    @XmlElement(required = true)
+    @XmlElement(namespace = "http://spring.io/guides/gs-producing-web-service", required = true)
     protected Country country;
 
     /**
      * Gets the value of the country property.
-     *
+     * 
      * @return
      *     possible object is
      *     {@link Country }
-     *
+     *     
      */
     public Country getCountry() {
         return country;
@@ -51,11 +51,11 @@ public class GetCountryResponse {
 
     /**
      * Sets the value of the country property.
-     *
+     * 
      * @param value
      *     allowed object is
      *     {@link Country }
-     *
+     *     
      */
     public void setCountry(Country value) {
         this.country = value;

@@ -1,4 +1,4 @@
-package marshalling;
+package utils.marshalling;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

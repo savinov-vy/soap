@@ -1,4 +1,4 @@
-package marshalling;
+package utils.marshalling;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

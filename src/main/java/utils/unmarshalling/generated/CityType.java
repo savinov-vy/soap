@@ -6,7 +6,7 @@
 //
 
 
-package unmarshalling.generated;
+package utils.unmarshalling.generated;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -42,7 +42,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 
-//xjc -d src src/main/java/unmarshalling/report1.xsd
+//xjc -d src src/main/java/utils.unmarshalling/report1.xsd
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "cityType", propOrder = {
     "sipcode",
